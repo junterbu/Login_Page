@@ -30,11 +30,10 @@ document.getElementById('registerBtn').addEventListener('click', async () => {
     }
 
     // Erfolg
-    let textLines = [
-    'Erfolgreich! Du kannst dich jetzt im Labor einloggen.',
-    "Link: https://junterbu.github.io/Laboruebung_SS2026/"
-    ];
-    statusMsg.textContent = textLines;
+    statusMsg.innerHTML = `
+    Erfolgreich! Du kannst dich jetzt im Labor einloggen.<br>
+    Link: <a href="https://junterbu.github.io/Laboruebung_SS2026/" target="_blank">Hier geht's zum virtuellen Labor</a>
+    `;
     statusMsg.className = 'success';
     
     // Felder leeren
