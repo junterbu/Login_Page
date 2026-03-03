@@ -32,7 +32,7 @@ document.getElementById('registerBtn').addEventListener('click', async () => {
     // Erfolg
     statusMsg.innerHTML = `
     Erfolgreich! Du kannst dich jetzt im Labor einloggen.<br>
-    Link: <a href="https://junterbu.github.io/Laboruebung_SS2026/" target="_blank">Hier geht's zum virtuellen Labor</a>
+    <a href="https://junterbu.github.io/Laboruebung_SS2026/" target="_blank">Hier geht's zum virtuellen Labor</a>
     `;
     statusMsg.className = 'success';
     
